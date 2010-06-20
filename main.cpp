@@ -2,6 +2,7 @@
 #include "mainwindow.h"
 
 //Main del Proyecto
+//Hola Cris, desde aca empezaremos a editar el proyecto
 
 int main(int argc, char *argv[])
 {
