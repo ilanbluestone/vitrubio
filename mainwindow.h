@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QFileDialog>
+#include <binaryMatrix.h>
+
 
 namespace Ui {
     class MainWindow;
@@ -15,9 +18,17 @@ public:
 
 protected:
     void changeEvent(QEvent *e);
+    void paintEvent(QPaintEvent *);
+
+private slots:
+    void on_load_clicked();
+    void on_binary_clicked();
 
 private:
     Ui::MainWindow *ui;
+
+    //Imagen binaria
+    BinaryMatrix * bImage;
 };
 
 #endif // MAINWINDOW_H
