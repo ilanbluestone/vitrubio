@@ -4,6 +4,10 @@
 #include <QMainWindow>
 #include <QFileDialog>
 #include <binaryMatrix.h>
+#include <ImageHandler.h>
+//#include <OperadorMorfologico.h>
+#include <Erosion.h>
+#include <Dilatacion.h>
 
 
 namespace Ui {
@@ -12,6 +16,10 @@ namespace Ui {
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
+
+    ImageHandler * iH1;
+    ImageHandler * iH2;
+
 public:
     MainWindow(QWidget *parent = 0);
     ~MainWindow();
@@ -23,6 +31,8 @@ protected:
 private slots:
     void on_load_clicked();
     void on_binary_clicked();
+    void on_erosion_clicked();
+    void on_dilatacion_clicked();
 
 private:
     Ui::MainWindow *ui;
