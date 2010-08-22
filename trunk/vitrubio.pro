@@ -6,5 +6,9 @@ TEMPLATE = app
 SOURCES += main.cpp \
     mainwindow.cpp
 HEADERS += mainwindow.h \
-    binaryMatrix.h
+    binaryMatrix.h \
+    dilatacion.h \
+    erosion.h \
+    imageHandler.h \
+    operadorMorfologico.h
 FORMS += mainwindow.ui
