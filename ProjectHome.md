@@ -1,0 +1,1 @@
+Este proyecto esta desarrollado como trabajo final de la cátedra Procesamiento Digital de Imagenes de la Facultad de Ciencias Exactas - UNICEN. Se intenta llevar a cabo un reconocedor automático de diferentes características de la postura humana a partir de imágenes digitales de personas. Esta herramienta intenta servir de soporte para el Diagnóstico Médico.
